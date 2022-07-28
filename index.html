@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="title">
+        <h1>Lizzy's Parfait Survey Form</h1>
+    </header>
+    <section>
+        <div class="container">
+        <div>
+            <p style="text-align:center ;">Let us know how we can improve on the quality of our parfait</p>
+        </div>
+        <form id="survey-form">
+            <div class="row-tab">
+            <div class="label-tab">
+                <label>Name</label>
+            </div>
+            <div class="input-tab">
+                <input type="text" name="Name" placeholder="Enter your name">
+            </div>
+            </div>
+            <div class="row-tab">
+            <div class="label-tab">
+                <label>Email</label>
+            </div>
+            <div class="input-tab">
+                <input type="email" name="Email" placeholder="Enter your email">
+            </div>
+            </div>
+            <div class="row-tab">
+            <div class="label-tab">
+                <label>Age</label>
+            </div>
+            <div class="input-tab">
+                <input type="number" name="Age" placeholder="Age">
+            </div>
+            </div>
+            <div class="row-tab">
+                <div class="label-tab">
+                    <label>Which option decsribes your current role?</label>
+                </div>
+                <div class="select-tab">
+                    <select id="select-box">
+                        <option>First time customer</option>
+                        <option>Regular customer</option>
+                        <option>Staff</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row tab">
+                <div class="label-tab">
+                    <label>Rate our Parfait with respect to taste, quantity served and package</label>
+                </div>
+                <div class="input-tab">
+                    <input type="radio" name="suggest" value="Not good"><label>Not good</label>
+                    <input type="radio" name="suggest" value="Good"><label>Good</label>
+                    <input type="radio" name="suggest" value="Very good"><label>Very good</label>
+                    <input type="radio" name="suggest" value="Excellect"><label>Excellect</label>
+                </div>
+            </div>
+            <div class="row-tab">
+                <div class="label-tab">
+                    <label>Would you recommend our parfait to a friend?</label>
+                </div>
+                <div class="input-tab">
+                    <input type="radio" name="suggest" value="Definitely"><label>Definitely</label>
+                    <input type="radio" name="suggest" value="Maybe"><label>Maybe</label>
+                    <input type="radio" name="suggest" value="No"><label>No</label>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>Leave a comment</label>
+                </div>
+                <div>
+                    <input type="text" name="Comment Section">
+                </div>
+            </div>
+            <div style="font-size: 50px;">
+                <input type="Submit" value="Submit">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
